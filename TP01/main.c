@@ -46,7 +46,7 @@ void calcularMediaSituacao(Aluno alunos[], int totalAlunos) {
 }
 
 void gerarArquivoSaida(Aluno alunos[], int totalAlunos) {
-    FILE *arquivo = fopen(ARQUIVO_SAIDA, "w");
+     FILE *arquivo = fopen(ARQUIVO_SAIDA, "w");
     if (arquivo == NULL) {
         printf("Erro ao criar o arquivo de saída.\n");
         exit(1);
