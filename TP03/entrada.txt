@@ -1,5 +1,0 @@
-100
-3
-0 cidadeA
-50 cidadeB
-100 cidadeC
